@@ -1,0 +1,490 @@
+/* ========================================
+   Google Fonts
+======================================== */
+
+/*
+Font Title:
+Bai Jamjuree
+
+Paragraph:
+Nunito
+
+Buttons:
+Poppins
+*/
+
+
+/* ========================================
+   Reset
+======================================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+
+    background:#4A4A4A;
+    color:#BEC5CD;
+
+    font-family:'Nunito', sans-serif;
+
+    line-height:1.7;
+}
+
+
+/* ========================================
+   Navbar
+======================================== */
+
+header{
+
+    width:100%;
+    position:sticky;
+    top:0;
+
+    background:#141517;
+
+    z-index:1000;
+
+    box-shadow:0 4px 12px rgba(0,0,0,.35);
+
+}
+
+.navbar{
+
+    width:90%;
+    max-width:1200px;
+
+    margin:auto;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    padding:20px 0;
+
+}
+
+.logo{
+
+    font-size:2rem;
+    font-family:'Bai Jamjuree', sans-serif;
+    font-weight:bold;
+
+    color:white;
+
+}
+
+.logo span{
+
+    color:#FFAE42;
+
+}
+
+.nav-links{
+
+    display:flex;
+    list-style:none;
+    gap:35px;
+
+}
+
+.nav-links a{
+
+    text-decoration:none;
+
+    color:#BEC5CD;
+
+    font-family:'Poppins', sans-serif;
+
+    transition:.3s;
+
+}
+
+.nav-links a:hover{
+
+    color:#FFAE42;
+
+}
+
+.active{
+
+    color:#F25C05 !important;
+
+}
+
+
+/* ========================================
+   Hero Section
+======================================== */
+
+.hero{
+
+    width:90%;
+    max-width:1200px;
+
+    margin:70px auto;
+
+    display:flex;
+
+    justify-content:space-between;
+    align-items:center;
+
+    gap:50px;
+
+}
+
+.hero-text{
+
+    flex:1;
+
+}
+
+.hero h1{
+
+    font-family:'Bai Jamjuree', sans-serif;
+
+    font-size:3.2rem;
+
+    color:white;
+
+    margin-bottom:20px;
+
+}
+
+.hero h2{
+
+    font-size:1.8rem;
+
+    color:#FFAE42;
+
+    margin-bottom:25px;
+
+}
+
+.hero p{
+
+    font-size:1.1rem;
+
+    margin-bottom:35px;
+
+}
+
+
+/* ========================================
+   Button
+======================================== */
+
+button{
+
+    padding:14px 35px;
+
+    border:none;
+
+    border-radius:50px;
+
+    cursor:pointer;
+
+    background:#F25C05;
+
+    color:white;
+
+    font-size:1rem;
+
+    font-family:'Poppins', sans-serif;
+
+    transition:.3s;
+
+}
+
+button:hover{
+
+    background:#FFAE42;
+
+    transform:translateY(-3px);
+
+}
+
+
+/* ========================================
+   Hero Image
+======================================== */
+
+.hero-image{
+
+    flex:1;
+
+}
+
+.hero-image img{
+
+    width:100%;
+
+    border-radius:15px;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.45);
+
+}
+
+
+/* ========================================
+   Hidden News
+======================================== */
+
+.hidden-content{
+
+    width:90%;
+    max-width:1100px;
+
+    margin:auto;
+
+    display:none;
+
+    padding:30px;
+
+    border-radius:12px;
+
+    background:#353940;
+
+}
+
+.hidden-content h2{
+
+    margin-bottom:20px;
+
+    color:#FFAE42;
+
+}
+
+.hidden-content p{
+
+    margin-bottom:15px;
+
+}
+
+
+/* ========================================
+   News Section
+======================================== */
+
+.news{
+
+    width:90%;
+    max-width:1200px;
+
+    margin:80px auto;
+
+}
+
+.news h2{
+
+    text-align:center;
+
+    margin-bottom:40px;
+
+    font-size:2.3rem;
+
+    color:white;
+
+    font-family:'Bai Jamjuree', sans-serif;
+
+}
+
+.news-container{
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:30px;
+
+}
+
+.card{
+
+    background:#353940;
+
+    padding:30px;
+
+    border-radius:12px;
+
+    transition:.3s;
+
+    box-shadow:0 8px 20px rgba(0,0,0,.25);
+
+}
+
+.card:hover{
+
+    transform:translateY(-8px);
+
+}
+
+.card h3{
+
+    color:#FFAE42;
+
+    margin-bottom:15px;
+
+    font-family:'Bai Jamjuree', sans-serif;
+
+}
+
+.card p{
+
+    color:#BEC5CD;
+
+}
+
+
+/* ========================================
+   Main Article
+======================================== */
+
+.article{
+
+    width:90%;
+    max-width:1200px;
+
+    margin:70px auto;
+
+}
+
+.article h2{
+
+    font-size:2.4rem;
+
+    color:white;
+
+    margin-bottom:25px;
+
+    font-family:'Bai Jamjuree', sans-serif;
+
+}
+
+.article p{
+
+    margin-bottom:20px;
+
+    font-size:1.1rem;
+
+}
+
+
+/* ========================================
+   Footer
+======================================== */
+
+footer{
+
+    margin-top:80px;
+
+    padding:40px;
+
+    background:#141517;
+
+    text-align:center;
+
+}
+
+footer h3{
+
+    color:#FFAE42;
+
+    margin-bottom:15px;
+
+    font-family:'Bai Jamjuree', sans-serif;
+
+}
+
+footer p{
+
+    color:#BEC5CD;
+
+}
+
+
+/* ========================================
+   Responsive
+======================================== */
+
+@media(max-width:900px){
+
+.hero{
+
+    flex-direction:column;
+
+}
+
+.news-container{
+
+    grid-template-columns:1fr;
+
+}
+
+.navbar{
+
+    flex-direction:column;
+
+    gap:20px;
+
+}
+
+.hero h1{
+
+    font-size:2.4rem;
+
+}
+
+.hero h2{
+
+    font-size:1.4rem;
+
+}
+
+}
+
+@media(max-width:600px){
+
+.nav-links{
+
+    flex-direction:column;
+
+    gap:15px;
+
+    text-align:center;
+
+}
+
+.hero{
+
+    width:95%;
+
+}
+
+.news{
+
+    width:95%;
+
+}
+
+.article{
+
+    width:95%;
+
+}
+
+button{
+
+    width:100%;
+
+}
+
+}
